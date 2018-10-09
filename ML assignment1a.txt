@@ -1,0 +1,23 @@
+problem 2 
+
+
+
+Q1: 	*model building
+	*model testing
+	*applying the model
+
+Q2: The example data provided in split into training dataset and testing dataset. which is used to test and train the model.
+
+Q3: The set of data which is used to train the machine to predict the outcome is called training set.
+	The set of data which is used to test the prediction or accuracy of the hypotheses is called the test set.
+
+Q4: The general principle of an ensemble method is to combine the predictions of several models built with a given learning algorithm in order to improve robustness over a single model.  
+	Bagging is a method in ensemble for improving unstable estimation or classification schemes.  
+ 	Boosting method are used sequentially to reduce the bias of the combined model.  
+	Boosting and Bagging both can reduce errors by reducing the variance term.
+Q5: By using a lot of data overfitting can be avoided, overfitting happens relatively as you have a small dataset, and you try to learn from it. But if you have a small database and you
+	 are forced to come with a model based on that. 
+	In such situation, you can use a technique known as cross validation. In this method the dataset splits into two section, testing and training datasets, the testing dataset will 
+	only test the model while, in training dataset, the datapoints will come up with the model.
+	In this technique,  a model is usually given a dataset of a known data on which training (training data set) is run and a dataset of unknown data against which the model is tested. 
+	The idea of cross validation is to define a dataset to “test” the model in the training phase.
